@@ -32,12 +32,12 @@ while(0):
 
 			print("Did you say ",MyText)			
 			if (MyText=='brakes off') or (MyText=='breaks off'):
-				print("chal gya bc")
+				
 				pyautogui.press('b')
 				SpeakText('breaks off')
 				#break
 			elif (MyText=='follow hand') or (MyText=='polo hand') :
-				print("chal gya bc")
+				
 				SpeakText('steer using hand')
 				cap = cv2.VideoCapture(0)
 				cap.set(3, 1280)
@@ -71,31 +71,31 @@ while(0):
 				        break
 
 			elif (MyText=='throttle up') or (MyText=='turtle up') or (MyText=='bottle up'):
-				print("chal gya bc")
+				
 				SpeakText('throttle increased')
 				#break
 			elif (MyText=='throttle down') or (MyText=='throttle down'):
-				print("chal gya bc")
+				
 				pyautogui.press('f1')
 				SpeakText('throttle decreased')
 				#break
 			elif (MyText=='rudder right') or (MyText=='brother right'):
-				print("chal gya bc")
+				
 				pyautogui.press('d')
 				SpeakText('rudder moved to right')
 				#break
 			elif (MyText=='rudder left') or (MyText=='brother left'):
-				print("chal gya bc")
+				
 				pyautogui.press('a')
 				SpeakText('rudder moved to left')
 				#break
 			elif (MyText=='rudder center') or (MyText=='rudder centre') or (MyText=='brotherd centre') :
-				print("chal gya bc")
+				
 				pyautogui.press('s')
 				SpeakText('rudder moved to centre')
 				#break
 			elif (MyText=='exit voice') or (MyText=='left'):
-				print("chal gya bc")
+				
 				SpeakText('exiting voice commands')
 				break
 			else:
