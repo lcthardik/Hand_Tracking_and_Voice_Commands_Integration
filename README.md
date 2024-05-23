@@ -12,5 +12,17 @@ This project demonstrates a voice-controlled hand tracking system using Python. 
 
 ## Installation
 1. Clone this repository:
-   ```bash
    git clone https://github.com/your_username/voice-hand-tracking.git
+
+## Usage
+1. Run `main.py`:
+2. Activate voice command mode by saying "Voice command activated".
+3. Give voice commands such as:
+- "Brakes off" or "Breaks off": Releases the brakes.
+- "Follow hand" or "Polo hand": Starts hand tracking mode.
+- "Exit voice" or "Left": Exits voice command mode.
+
+## Demo
+![Demo](demo.gif)
+
+Watch the demo on YouTube: [Voice-Controlled Hand Tracking Demo](https://www.youtube.com/watch?v=lrFEo9Y9rW8)
